@@ -20,7 +20,7 @@ public class kehbaSmelter extends TaskScript {
     @Override
     public void onStart() {
         Log.fine("Script Started!");
-        submit(new Banking(), new Traverse(), new searchFurnace(), new smeltFurnace());
+        submit(new Banking(), new Traverse(), new searchFurnace());
     }
 
     @Override
